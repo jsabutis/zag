@@ -1966,6 +1966,10 @@
         "type": "boolean",
         "description": "Whether the dialog is open"
       },
+      "modal": {
+        "type": "boolean",
+        "description": "Whether the dialog is modal"
+      },
       "setOpen": {
         "type": "(open: boolean) => void",
         "description": "Function to open or close the dialog"
@@ -2075,6 +2079,10 @@
       "open": {
         "type": "boolean",
         "description": "Whether the drawer is open."
+      },
+      "modal": {
+        "type": "boolean",
+        "description": "Whether the drawer is modal."
       },
       "dragging": {
         "type": "boolean",
